@@ -5,6 +5,7 @@ class PrincipalTest extends AnyFunSpec {
     it("Realiza lo siguiente"){
       val res = (5*2) == 10
       assert(res)
+      info("Una actividad que se puede probar")
     }
   }
 }
